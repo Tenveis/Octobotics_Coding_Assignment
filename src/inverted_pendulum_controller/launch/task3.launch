@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <node name="Angular_velocity" pkg="rqt_plot" type="rqt_plot" output="screen" args="/inverted_pendulum/current_state/curr_theta" />
+
+
+    <include file="$(find inverted_pendulum_sim)/launch/inverted_pendulum_sim.launch" />
+
+    <node name="Balancing_node" pkg="inverted_pendulum_controller" type="goal3.py" output="screen" />
+
+</launch>

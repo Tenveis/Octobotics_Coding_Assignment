@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <include file="$(find inverted_pendulum_sim)/launch/inverted_pendulum_sim.launch" />
+
+    <node name="initial_parameter" pkg="inverted_pendulum_controller" type="goal1.py" />
+
+</launch>
