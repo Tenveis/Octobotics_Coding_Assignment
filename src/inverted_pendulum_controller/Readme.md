@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Setting up environemnt:
 ROS: Noetic
 Modules: 
@@ -8,14 +7,8 @@ Modules:
 pip install simple-pid
 ```
 =======
-#Setting up environemnt:
 
-ROS: Noetic
-
-Modules: simple-pid
->>>>>>> 6aee3ad5f62c2fde4f2298aa7284d5884dfcbc1a
-
-1> Clone the Repository.
+- Clone the Repository.
 
 2> Open termainal in the directory.
 
@@ -23,22 +16,21 @@ Modules: simple-pid
 4>
 
 
-#Goal-1
+### Goal-1
 
 4> follow from step-1 to step-3.
 
 5> Type the folloing command: "roslaunch inverted_pendulum_controller task1.launch"
 
 
-#Goal-2
+### Goal-2
 
 6> follow from step-1 to step-3.
 
 7> Type the folloing command: "roslaunch inverted_pendulum_controller task2.launch"
 
 
-
-#Goal-3
+### Goal-3
 
 8> follow from step-1 to step-3.
 
@@ -46,7 +38,7 @@ Modules: simple-pid
 
 
 
-#Note
+### Note
 
 1> Graphs are plotted in rqt_plot.
 
