@@ -6,7 +6,7 @@ pip install simple-pid
 ```
 
 ### Setting up Environment 
-- Open termainal in the directory.
+- Open terminal in the directory.
 - Type the following command: "source devel/setup.bash"
 
 ### Goal-1
@@ -20,7 +20,6 @@ roslaunch inverted_pendulum_controller task1.launch"
 - Type the following command:
 ```bash
  "roslaunch inverted_pendulum_controller task2.launch"
-
 ```
 
 ### Goal-3
@@ -36,4 +35,3 @@ roslaunch inverted_pendulum_controller task1.launch"
 - It may possible that graph is not scaled properly thus it won't make any sense.
 - If so, Scale the rqt_plot graph properly for better understanding.
 - The System works fine when the angle is in between(3.0 and 3.3).
-
