@@ -9,6 +9,10 @@ class Parameters():
         rospy.init_node("Initial_parameters")
 
         rospy.wait_for_service("/inverted_pendulum/set_params")
+
+        self.params()
+
+    def params(self):
         try:
             self.data = rospy.ServiceProxy(
                 "/inverted_pendulum/set_params", SetParams)

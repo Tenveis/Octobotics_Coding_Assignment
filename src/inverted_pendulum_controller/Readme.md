@@ -1,10 +1,17 @@
-#Setting up environemnt:
+### Setting up environemnt:
 ROS: Noetic
-Modules: simple-pid
+Modules: 
+[`simple-pid`] (https://pypi.org/project/simple-pid/)
+
+```bash
+pip install simple-pid
+```
 
 1> Clone the Repository.
+
 2> Open termainal in the directory.
 3> Type the following command: "source devel/setup.bash"
+4>
 
 #Goal-1
 4> follow from step-1 to step-3.
