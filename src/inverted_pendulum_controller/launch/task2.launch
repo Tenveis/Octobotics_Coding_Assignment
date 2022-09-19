@@ -11,6 +11,6 @@
 
     <include file="$(find inverted_pendulum_controller)/launch/task1.launch" />
 
-    <node name="Oscillation_node" pkg="inverted_pendulum_controller" type="goal2.py" />
+    <node name="Oscillation_node" pkg="inverted_pendulum_controller" type="goal2.py" output="screen" />
 
 </launch>

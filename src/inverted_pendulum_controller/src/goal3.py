@@ -38,7 +38,7 @@ class Balance():
     def callback(self, msg):
         self.angle = msg.curr_theta
         self.force_object.force = self.pid(self.angle)
-
+  
         self.pub.publish(self.force_object)
 
     def main(self):
